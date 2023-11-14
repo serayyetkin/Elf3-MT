@@ -12,8 +12,8 @@ The experiments utilized the Normal Murine Mammary Gland cell line (NMuMG), proc
 ## RNA-Seq Analysis 
 
 ``` flowchart LR
-    A[Read QC (FastQC)]-->B[Adapter and quality trimming (Trimmoatic)]
-    B[Adapter and quality trimming (Trimmoatic)]-->C[Multiple alignment with HiSAT2]
+    A[Read QC (FastQC)]-->B[Adapter and quality trimming (Trimmoatic)];
+    B[Adapter and quality trimming (Trimmoatic)]-->C[Multiple alignment with HiSAT2];
 ```
 
 1- Read QC (FastQC)
