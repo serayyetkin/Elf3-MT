@@ -12,13 +12,8 @@ The experiments utilized the Normal Murine Mammary Gland cell line (NMuMG), proc
 ## RNA-Seq Analysis 
 
 ``` flowchart LR
-    Read QC (FastQC)-->Adapter and quality trimming (Trimmoatic)
-    Adapter and quality trimming (Trimmoatic)-->Multiple alignment with HiSAT2
-    Multiple alignment with HiSAT2-->Sort and index alignments (SAMtools)
-    Sort and index alignments (SAMtools)-->Quantification with featurecounts
-    Quantification with featurecounts-->Differential Expression Analysis with EdgeR
-    Differential Expression Analysis with EdgeR-->Gene Set Enrichment Analysis with fgsea R package
-    Gene Set Enrichment Analysis with fgsea R package-->Visualisaiton with ggplot2 (R)
+    A[Read QC (FastQC)]-->B[Adapter and quality trimming (Trimmoatic)]
+    B[Adapter and quality trimming (Trimmoatic)]-->C[Multiple alignment with HiSAT2]
 ```
 
 1- Read QC (FastQC)
