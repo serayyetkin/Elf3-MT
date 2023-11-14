@@ -11,6 +11,14 @@ The experiments utilized the Normal Murine Mammary Gland cell line (NMuMG), proc
 
 ## RNA-Seq Analysis 
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ### 1- Read QC (FastQC)
 ### 2- Adapter and quality trimming (Trimmoatic)
 ### 3- Multiple alignment with HiSAT2
