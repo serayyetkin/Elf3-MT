@@ -16,11 +16,11 @@
 ## RNA-Seq Analysis 
 
 ```mermaid
-graph TD;
+graph LR;
     FastQC-->Trimmomatic;
     Trimmomatic-->HiSAT2;
-    HiSAT2-->featurecounts;
-    featurecounts-->EdgeR;
+    HiSAT2-->Featurecounts;
+    Featurecounts-->EdgeR;
     EdgeR-->GSEA;
     GSEA-->Visualisation;
 ```
