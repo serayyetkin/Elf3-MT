@@ -1,5 +1,5 @@
 # Elf3-MT
-# ** ELF3 SILENCING IN MESENCHYMAL EPITHELIAL TRANSITION**
+# **ELF3 SILENCING IN MESENCHYMAL EPITHELIAL TRANSITION**
 
 ## Aim of the study
  This Project mainly aims to investigate the impact of Elf3 silencing on Mesenchymal epithelial transition in NMuMG cell line using an integrated approach, including gene modulation and bioinformatics. This github page show
