@@ -19,7 +19,7 @@ graph TD;
     Sort and index alignments (SAMtools)-->Quantification with featurecounts ;
     Quantification with featurecounts-->Differential Expression Analysis with EdgeR ;
     Differential Expression Analysis with EdgeR-->Gene Set Enrichment Analysis with fgsea R package ;
-    Gene Set Enrichment Analysis with fgsea R package-->Visualisaiton with ggplot2 (R)
+    Gene Set Enrichment Analysis with fgsea R package-->Visualisaiton with ggplot2 (R) ;
 ```
 1- Read QC (FastQC)
 2- Adapter and quality trimming (Trimmoatic)
