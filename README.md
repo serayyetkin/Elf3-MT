@@ -9,5 +9,15 @@ The experiments utilized the Normal Murine Mammary Gland cell line (NMuMG), proc
 
 # ![image](https://github.com/serayyetkin/Elf3-MT/assets/73422665/9ae07972-bb33-4b11-9c6a-ed2377f53c23)
 
+## RNA-Seq Analysis 
+
+1- Read QC (FastQC)
+2- Adapter and quality trimming (Trimmoatic)
+3- Multiple alignment with HiSAT2
+4- Sort and index alignments (SAMtools)
+5- Quantification with featurecounts
+6- Differential Expression Analysis with EdgeR
+7- Gene Set Enrichment Analysis with fgsea R package
+8- Visualisaiton with ggplot2 (R)
 
 All data collection and processing operations were conducted on an Apple MacBook Air, 8 GB RAM computer with MacOS Monterey 12.6.3 operating system, and IBG HPC environments have been used for data collection in this study.
