@@ -9,6 +9,11 @@ The experiments utilized the Normal Murine Mammary Gland cell line (NMuMG), proc
 
 # <img src='https://github.com/serayyetkin/Elf3-MT/assets/73422665/9ae07972-bb33-4b11-9c6a-ed2377f53c23' width="400" height="200">
 
+siRNAs against Elf3 were purchased from Qiagen for siElf3_2; the sequence is: TTGAACCAACTTGTTCGATAA. NMuMG cells were transfected with 50 nM siRNA using the Lipofectamine RNAi Max as recommended by the manufacturer and collected 72 h later. Total RNA was isolated from treated and control cells using the Nucleospin RNA II kit. Concentrations of samples were measured using the instrument NanoDrop 2000. 1 µg RNA was converted to cDNA using the Maxima First Strand cDNA Synthesis Kit. cDNA was then diluted 1:10 and used for qPCR. AMPIGENE qPCR probe mix (Enzo) and Universal Probe Library probes were used for the experiment as recommended by the manufacturer. Analysis and quantification of qPCR were performed using the ΔΔCt method. Validated samples were shipped to sequencing company.
+
+![image](https://github.com/serayyetkin/Elf3-MT/assets/73422665/c3f73764-61b7-40b5-abd0-9deb70c8a2fc)
+
+
 All data collection and processing operations were conducted on an Apple MacBook Air, 8 GB RAM computer with MacOS Monterey 12.6.3 operating system, and IBG HPC environments have been used for data collection in this study.
 
 ## RNA-Seq Analysis 
