@@ -1,4 +1,6 @@
-```library(Rsubread)
+#!/usr/bin/env Rscript
+
+library(Rsubread)
 library(BiocParallel)
 library(limma)
 library(edgeR)
@@ -26,4 +28,4 @@ counts_df <- as.data.frame(counts$counts)
 counts_df[counts_df==0] <- NA
 counts_df_2 <- na.omit(counts_df)
 counts_df_2$gene_id <- row.names(counts_df_2) 
-write.table(counts_df_2, "/archive/yetkins/TEZ/counts_Elf3.tsv", quote = F, col.names = T, sep = "\t")```
+write.table(counts_df_2, "/archive/yetkins/TEZ/counts_Elf3.tsv", quote = F, col.names = T, sep = "\t")
