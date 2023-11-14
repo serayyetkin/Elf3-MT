@@ -11,13 +11,13 @@ The experiments utilized the Normal Murine Mammary Gland cell line (NMuMG), proc
 
 ## RNA-Seq Analysis 
 
-# 1- Read QC (FastQC)
-# 2- Adapter and quality trimming (Trimmoatic)
-# 3- Multiple alignment with HiSAT2
-# 4- Sort and index alignments (SAMtools)
-# 5- Quantification with featurecounts
-# 6- Differential Expression Analysis with EdgeR
-# 7- Gene Set Enrichment Analysis with fgsea R package
-# 8- Visualisaiton with ggplot2 (R)
+### 1- Read QC (FastQC)
+### 2- Adapter and quality trimming (Trimmoatic)
+### 3- Multiple alignment with HiSAT2
+### 4- Sort and index alignments (SAMtools)
+### 5- Quantification with featurecounts
+### 6- Differential Expression Analysis with EdgeR
+### 7- Gene Set Enrichment Analysis with fgsea R package
+### 8- Visualisaiton with ggplot2 (R)
 
 All data collection and processing operations were conducted on an Apple MacBook Air, 8 GB RAM computer with MacOS Monterey 12.6.3 operating system, and IBG HPC environments have been used for data collection in this study.
