@@ -1,4 +1,6 @@
-```counts <- read_delim("counts_Elf3.tsv", 
+#!/usr/bin/env Rscript
+
+counts <- read_delim("counts_Elf3.tsv", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 counts <- counts[,c(1,4,5,2,3)]
@@ -179,4 +181,4 @@ ego_u <- enrichGO(gene     = group_elf3_annotated_Upreg$gene_id_v,
                   ont           = "BP",
                   pAdjustMethod = "BH")
 ego_df <- as.data.frame(ego)
-barplot(ego_u, drop=TRUE, showCategory=28,color = "pvalue",font.size = 8)```
+barplot(ego_u, drop=TRUE, showCategory=28,color = "pvalue",font.size = 8)
