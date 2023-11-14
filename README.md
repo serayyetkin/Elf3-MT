@@ -13,10 +13,10 @@ The experiments utilized the Normal Murine Mammary Gland cell line (NMuMG), proc
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    FastQC-->Trimmoatic;
+    Trimmoatic-->HiSAT2;
+    HiSAT2-->featurecounts;
+    featurecounts-->EdgeR;
 ```
 
 ### 1- Read QC (FastQC)
