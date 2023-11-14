@@ -21,6 +21,13 @@ graph TD ;
     Differential Expression Analysis with EdgeR-->Gene Set Enrichment Analysis with fgsea R package;
     Gene Set Enrichment Analysis with fgsea R package-->Visualisaiton with ggplot2 (R);
 ```
+
+```mermaid
+graph TD ;
+    b-->c;
+    a-->b;
+```
+
 1- Read QC (FastQC)
 2- Adapter and quality trimming (Trimmoatic)
 3- Multiple alignment with HiSAT2
